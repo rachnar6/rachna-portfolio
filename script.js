@@ -31,7 +31,7 @@ hiddenElements.forEach((el) => generalObserver.observe(el));
    3. STAGGERED ANIMATION (Skills)
    ========================================= */
 const skillsSection = document.querySelector('#skills');
-const skillBoxes = document.querySelectorAll('.skill-box');
+const skillBoxes = document.querySelectorAll('.skill-category');
 
 const skillsObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {

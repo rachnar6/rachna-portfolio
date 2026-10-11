@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<>
+<body>
 
     <nav class="navbar">
         <div class="logo"><span></span></div>
@@ -17,11 +17,11 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li>
+            <!-- <li>
                 <a href="https://your-shop-link.com" target="_blank" class="nav-shop-btn">
                     <i class="fas fa-store"></i> My Shop
                 </a>
-            </li>
+            </li> -->
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -30,8 +30,8 @@
         <div class="hero-content">
             <h1>James Infant Rachna R</h1>
             <h2><span class="typing-text">Software Developer</span></h2>
-            <p>Aspiring Full Stack Developer with a strong interest in building web applications. 
-               Focused on writing clean code and solving real-world problems.</p>
+            <p>Aspiring Full Stack Developer with a passion for building web applications and solving real-world problems.
+A creative, adaptable, and dedicated learner committed to writing clean and efficient code..</p>
             <div class="social-icons">
                 <a href="https://github.com/rachnar6" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/james-infant-rachna-r-69bba4324" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -40,6 +40,7 @@
                 <a href="https://www.geeksforgeeks.org/profile/ranjithrzccd?tab=activity" target="_blank"><i class="fas fa-laptop-code"></i></a>    
                 <a href="mailto:ranjithrachna6@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
+            <br>
                 <a href="resume.pdf" download="Software Developer James Infant Rachna-Resume" class="btn">Download Resume</a>
         </div>
 
@@ -48,86 +49,52 @@
         </div>
     </header>
 
-    <section id="about" class="section">
-        <h2 class="heading">About <span>Me</span></h2>
-        
-        <div class="about-content hidden">
-            <div class="about-text">
-                <h3>Full Stack Developer & Student</h3>
-                <p>
-                    I am a Computer Science Engineering student at <strong>National Engineering College</strong> (2023 - 2027). 
-                    My journey involves turning ideas into reality through code. I am not just writing lines of code; 
-                    I am solving problems. I have a passion for <strong>UI/UX Design</strong> and <strong>Full Stack Development</strong>.
-                </p>
-                
-                <div class="info-grid">
-                    <div class="info-card">
-                        <i class="fas fa-graduation-cap icon"></i>
-                        <div class="card-details">
-                            <span>CGPA</span>
-                            <h4>7.99</h4>
-                        </div>
-                    </div>
-
-                    <div class="info-card">
-                        <i class="fas fa-map-marker-alt icon"></i>
-                        <div class="card-details">
-                            <span>Location</span>
-                            <h4>Tirunelveli</h4>
-                        </div>
-                    </div>
-
-                    <div class="info-card">
-                        <i class="fas fa-palette icon"></i>
-                        <div class="card-details">
-                            <span>Hobbies</span>
-                            <h4>Designing</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section id="skills" class="section hidden">
-        <h2 class="heading">My <span>Skills</span></h2>
+        <h2 class="heading"><span>Skills</span></h2>
         <div class="skills-container">
             
-            <div class="skill-box">
-                <h3>Programming Languages</h3>
-                <div class="skill-tags">
-                    <span>C++</span>
-                    <span>Python</span>
-                    <span>JavaScript</span>
-                </div>
-            </div>
+            <div class="skills-grid">
+    <div class="skill-category">
+        <i class="fas fa-code"></i>
+        <h3>Programming</h3>
+        <div class="skill-tags">
+            <span>C++</span>
+            <span>Java</span>
+            <span>JavaScript</span>
+        </div>
+    </div>
 
-            <div class="skill-box">
-                <h3>Web Technologies</h3>
-                <div class="skill-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>React</span>
-                    <span>Node.js</span>
-                    <span>Django</span>
-                </div>
-            </div>
+    <div class="skill-category">
+        <i class="fas fa-globe"></i>
+        <h3>Web</h3>
+        <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Django</span>
+        </div>
+    </div>
 
-            <div class="skill-box">
-                <h3>Soft Skills</h3>
-                <div class="skill-tags">
-                    <span>Problem-Solving</span>
-                    <span>Team Collaboration</span>
-                    <span>Leadership</span>
-                    <span>Adaptability</span>
-                </div>
-            </div>
+    <div class="skill-category">
+        <i class="fas fa-users"></i>
+        <h3>Soft Skills</h3>
+        <div class="skill-tags">
+            <span>Problem Solving</span>
+            <span>Leadership</span>
+            <span>Adaptability</span>
+            <span>Teamwork</span>
+        </div>
+    </div>
+</div>
 
         </div>
     </section>
 
     <section id="certifications" class="section">
-        <h2 class="heading">My <span>Certifications</span></h2>
+        <h2 class="heading"><span>Certifications</span></h2>
         <div class="cert-grid">
             
             <a href="images/cert-python.jpg" target="_blank" class="cert-card">
@@ -205,7 +172,83 @@
                 </div>
             </div>
 
+
             <div class="project-card">
+             <div class="project-info">
+        <h3>Transmission Grid Website</h3>
+        <p class="tech-stack">HTML, CSS, JavaScript</p>
+        <p>
+            Developed a responsive website to showcase transmission grid
+            infrastructure and power distribution concepts through an
+            intuitive and modern user interface, focusing on usability
+            and accessibility.
+        </p>
+
+        <a href="https://github.com/rachnar6/transmission-grid"
+           target="_blank"
+           class="btn-sm">
+            <i class="fab fa-github"></i> View Code
+        </a>
+
+        <a href="https://transmission-grid.netlify.app/"
+           target="_blank"
+           class="btn-sm live">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+        </a>
+    </div>
+</div>
+
+<div class="project-card">
+    <div class="project-info">
+        <h3>Namma Spot - Smart Parking System</h3>
+        <p class="tech-stack">AI, MERN Stack</p>
+        <p>
+            An intelligent smart parking solution that leverages Artificial
+            Intelligence and Augmented Reality to help users locate available
+            parking spaces in real time, providing navigation assistance and
+            enhancing urban parking efficiency.
+        </p>
+
+        <a href="https://github.com/rachnar6/NammaSpot"
+           target="_blank"
+           class="btn-sm">
+            <i class="fab fa-github"></i> View Code
+        </a>
+
+        <!-- <a href=""
+           target="_blank"
+           class="btn-sm live">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+        </a> -->
+    </div>
+</div>
+          <div class="project-card">
+    <div class="project-info">
+        <h3>BioBridge</h3>
+        <p class="tech-stack">React, Node.js, Express, MongoDB</p>
+
+        <p>
+            A biodiversity platform that enables citizens to report
+            wildlife-related incidents to authorities and provides a
+            learning portal for students to explore biodiversity and
+            environmental conservation.
+        </p>
+
+        <a href="https://github.com/rachnar6/biobridge"
+           target="_blank"
+           class="btn-sm">
+            <i class="fab fa-github"></i> View Code
+        </a>
+
+        <a href="https://biobridge-frontend.onrender.com/login.html"
+           target="_blank"
+           class="btn-sm live">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+        </a>
+    </div>
+</div>  
+
+<div class="project-card">
                 <div class="project-info">
                     <h3>College E-Voting System</h3>
                     <p class="tech-stack">Django, Python, SQL</p>
@@ -219,7 +262,7 @@
     </section>
 
     <section id="experience" class="section">
-        <h2 class="heading">My <span>Experience</span></h2>
+        <h2 class="heading"> <span>Experience</span></h2>
         <div class="timeline">
             
             <div class="timeline-item">
@@ -258,7 +301,7 @@
     </section> 
 
     <section id="achievements" class="section">
-        <h2 class="heading">My <span>Achievements</span></h2>
+        <h2 class="heading"> <span>Achievements</span></h2>
         <div class="timeline">
             
             <div class="timeline-item">
@@ -332,15 +375,7 @@ What makes this even more special is that it aligns with my small business, wher
             </div>
         </a>
 
-        <!-- Bannari Sketch the Art -->
-        <a href="images/bannari sketch the art.png" target="_blank" class="cert-card">
-            <div class="cert-icon"><i class="fas fa-paint-brush"></i></div>
-            <div class="cert-info">
-                <h3>Sketch the Art Competition</h3>
-                <p>Bannari Amman Institute of Technology</p>
-                <span class="view-btn">View Certificate <i class="fas fa-external-link-alt"></i></span>
-            </div>
-        </a>
+        
 
         <!-- Thiagarajar Terrapitch -->
         <a href="images/thiagarajar terrapitch.png" target="_blank" class="cert-card">
@@ -361,6 +396,53 @@ What makes this even more special is that it aligns with my small business, wher
                 <span class="view-btn">View Certificate <i class="fas fa-external-link-alt"></i></span>
             </div>
         </a>
+
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2 class="heading">Beyond <span>Coding</span></h2>
+
+    <div class="about-content hidden">
+
+        <p class="about-desc">
+            I love turning ideas into interactive web experiences and enjoy
+            exploring design, solving coding challenges, and learning new technologies.
+        </p>
+
+        <div class="mini-stats">
+            <div class="mini-card">
+                <h3>690+</h3>
+                <span>Problems</span>
+            </div>
+
+            <div class="mini-card">
+                <h3>5</h3>
+                <span>Projects</span>
+            </div>
+
+            <div class="mini-card">
+                <h3>2</h3>
+                <span>Internships</span>
+            </div>
+
+            <div class="mini-card">
+                <h3>7.85</h3>
+                <span>CGPA</span>
+            </div>
+            <div class="mini-card">
+                <h3>3</h3>
+                <span>Ongoing Projects</span>
+            </div>
+        </div>
+
+        
+
+        <div class="traits">
+            <span>Creative</span>
+            <span>Adaptable</span>
+            <span>Dedicated</span>
+        </div>
 
     </div>
 </section>
